@@ -32,6 +32,6 @@ Luego dar click en el boton "Elegir archivos" para cargar el archivo .json
   ! mkdir ~/.kaggle
   ! cp kaggle.json ~/.kaggle/
   ! chmod 600 ~/.kaggle/kaggle.json
-  !kaggle competitions download -c allstate-claims-severity
-  !unzip allstate-claims-severity.zip
+  !kaggle competitions download -c porto-seguro-safe-driver-prediction
+  !unzip porto-seguro-safe-driver-prediction.zip
 ```
