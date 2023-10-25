@@ -35,3 +35,14 @@ Luego dar click en el boton "Elegir archivos" para cargar el archivo .json
   !kaggle competitions download -c porto-seguro-safe-driver-prediction
   !unzip porto-seguro-safe-driver-prediction.zip
 ```
+
+4. Ejecutar el Contenedor desde la terminal en fase-2
+
+```
+  docker build -t my_model_image .
+  docker run my_model_image
+```
+Nota: Debido a que los archivos de test.csv y train.csv son demasiado pesados no se pudieron subir a este repositorio, sin embargo para para la ejecución local estos archivos se encontraban en la carpeta "data"
+
+
+  
