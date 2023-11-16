@@ -42,6 +42,18 @@ Luego dar click en el boton "Elegir archivos" para cargar el archivo .json
   docker build -t my_model_image .
   docker run my_model_image
 ```
+
+5. Ejecutar el Contenedor desde la terminal en fase-3
+
+```
+  docker build -t my_model_image .
+  docker run -p 5000:5000 my_model_image
+```
+Luego se puede acceder a la apirest en:
+```
+  http://127.0.0.1:5000
+```
+
 Nota: Debido a que los archivos de test.csv y train.csv son demasiado pesados no se pudieron subir a este repositorio, sin embargo para para la ejecución local estos archivos se encontraban en la carpeta "data"
 
 
