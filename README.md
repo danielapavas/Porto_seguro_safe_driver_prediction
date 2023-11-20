@@ -51,7 +51,12 @@ Luego dar click en el boton "Elegir archivos" para cargar el archivo .json
 ```
 Luego se puede acceder a la apirest en:
 ```
-  http://127.0.0.1:5000
+  http://localhost:5000
+```
+Y para acceder a los endpoints en:
+```
+  http://localhost:5000/predict
+  http://localhost:5000/train
 ```
 
 Nota: Debido a que los archivos de test.csv y train.csv son demasiado pesados no se pudieron subir a este repositorio, sin embargo para para la ejecución local estos archivos se encontraban en la carpeta "data"
